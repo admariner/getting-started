@@ -163,6 +163,7 @@ Certain metadata should be written _and_ read by a tap.  This metadata is known 
 | `valid-replication-keys`    | any        | discoverable        | List of the fields that could be used as replication keys.|
 | `forced-replication-method` | any        | discoverable        | Used to force the replication method to either `FULL_TABLE` or `INCREMENTAL`.|
 | `table-key-properties`      | any        | discoverable        | List of key properties for a database table.|
+| `parent-tap-stream-id`      | any        | discoverable        | The tap-stream-id of the parent stream.|
 | `schema-name`               | database   | discoverable        | The name of the stream.|
 | `is-view`                   | database   | discoverable        | Either `true` or `false`.  Indicates whether a stream corresponds to a database view.|
 | `row-count`                 | database   | discoverable        | Number of rows in a database table/view.|
